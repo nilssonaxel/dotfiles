@@ -30,7 +30,7 @@ sudo mkdir -p /etc/lightdm
 sudo cp ./config/lightdm-gtk-greeter.conf /etc/lightdm/lightdm-gtk-greeter.conf
 
 echo "Copying wallpapers"
-mkdir -p ~/.config/wallpapers
+mkdir -p ~/.config/wallpaper
 cp ./wallpaper/* ~/.config/wallpaper/
 
 echo "Copying wallpapers to /usr/share/wallpaper/"
