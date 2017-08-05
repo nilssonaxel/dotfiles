@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Installing official packages:"
-sudo pacman -Syu - < official-packages.txt
+sudo pacman -Syu --needed - < official-packages.txt
 
 echo "Installing from AUR:"
 
