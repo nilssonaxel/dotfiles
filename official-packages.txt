@@ -31,3 +31,5 @@ gvfs
 ranger
 arandr
 redshift
+pavucontrol
+alsa-utils
