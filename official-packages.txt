@@ -33,3 +33,4 @@ arandr
 redshift
 pavucontrol
 alsa-utils
+dropbox
