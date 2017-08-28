@@ -7,7 +7,3 @@
 
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
-
-setxkbmap -model pc104 -layout se -variant nodeadkeys
-
-
