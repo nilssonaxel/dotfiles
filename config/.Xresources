@@ -1,0 +1,30 @@
+! Colors
+
+#define mainAccentColor     #333333
+#define mainNeutralColor    #999999
+#define mainTextColor       #ffffff
+#define highlightColor      #b24a6a
+#define highlightTextColor  #cc3399
+
+! ROFI
+rofi.color-enabled: true
+
+!                   bg             border           seperator
+rofi.color-window: argb:dd000000,  argb:ee000000, highlightTextColor
+
+!                  bg             fg                bg-alt              hl-bg               hl-fg
+rofi.color-normal: argb:00000000, mainTextColor,    argb:00000000,   mainAccentColor,    #000000
+rofi.color-active: argb:00000000, #ffffff,          argb:00000000,   #ffffff,            #ffffff
+rofi.color-urgent: argb:00000000, highlightColor,   argb:00000000,   #662b9c,            #ffc39c
+
+rofi.fullscreen: true
+rofi.padding: 220
+rofi.separator-style: solid
+rofi.hide-scrollbar: true
+rofi.font: mono 15
+
+*color0: mainAccentColor
+*color1: mainNeutralColor
+*color2: mainTextColor
+*color3: highlightColor
+*color4: highlightTextColor

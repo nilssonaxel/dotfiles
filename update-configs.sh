@@ -6,7 +6,7 @@ cp ./config/i3.conf ~/.config/i3/config
 
 echo "Copying Polybar config"
 mkdir -p ~/.config/polybar
-cp ./config/polybar.conf ~/.config/polybar/config
+cp ./config/polybar/* ~/.config/polybar/
 
 echo "Copying LXTerminal config"
 mkdir -p ~/.config/lxterminal
