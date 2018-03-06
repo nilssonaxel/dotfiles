@@ -19,21 +19,6 @@ done
 
 cd ..
 
-echo "Cleaning up"
-rm -rf tmp
-
-echo "Enabling services"
-echo "Enabling lightdm.service"
-sudo systemctl enable lightdm
-
-echo "Enabling NetworkManager.service"
-sudo systemctl enable NetworkManager
-
-echo "Starting services"
-sudo systemctl start lightdm
-sudo systemctl start Networmanager
-
-
 echo "Copying configuration files"
 exec ./update-configs.sh
 

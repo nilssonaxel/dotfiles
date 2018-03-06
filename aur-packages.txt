@@ -2,4 +2,4 @@ i3-gaps-git
 i3lock-fancy-git
 spotify
 polybar
-ttf-font-awesome
+ttf-font-awesome-4
